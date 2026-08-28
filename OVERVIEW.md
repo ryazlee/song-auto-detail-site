@@ -17,7 +17,7 @@ The public site is statically generated. Visitors never query the database. The 
 | CMS / auth / images | Supabase (`nizxponktvpkupcdazte`) |
 | Hosting | GitHub Pages (static export). Vercel is optional, not required. |
 | Quote requests | Google Forms |
-| Scheduling | Google Calendar appointment page (if Yong uses one) |
+| Scheduling | Omitted for now. Optional later via `site.calendarUrl`. |
 
 Services, hours, and nav live in the repo. Only **projects** and **blog posts** live in Supabase.
 
@@ -172,7 +172,7 @@ Content source of truth is the current Wix site. Do not invent reviews, certific
 ## What this is not
 
 - Not a custom form backend (Google Forms).
-- Not a custom calendar (link Yong’s Google Calendar page if he has one).
+- Not a custom calendar. Scheduling is off until `site.calendarUrl` is set to a Google Calendar appointment page; `BookingLink` then appears on `/quote`.
 - Not a public runtime CMS. Unpublished content is never in the static build.
 - Not a Vercel requirement. Pages is enough for a static public site.
 
@@ -186,7 +186,9 @@ Content source of truth is the current Wix site. Do not invent reviews, certific
 4. Blog  
 5. `/admin`  
 6. Publish webhook → GitHub Action → GitHub Pages  
-7. Google Forms + optional Calendar  
+7. Google Forms  
 8. SEO, redirects, performance, DNS cutover  
+
+Scheduling stays out of the launch path. To add it later: paste the appointment URL into `site.calendarUrl` in `src/lib/site.ts`. No calendar backend.  
 
 Keep Wix online until the new site is verified, then switch DNS and submit the sitemap in Search Console.

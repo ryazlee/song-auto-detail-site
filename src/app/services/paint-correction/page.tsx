@@ -13,6 +13,8 @@ export default function PaintCorrectionPage() {
       <PageHero
         title="Paint correction"
         intro="Paint correction uses a polishing machine to level the clear coat. It removes swirl marks, etchings, marring, and light scratches, restoring original clarity and gloss."
+        image="/images/services/paint-correction.jpg"
+        imageAlt="Paint correction at Song Auto Detail"
       />
       <section className="mx-auto grid max-w-6xl gap-6 px-5 py-16 md:grid-cols-3">
         {[

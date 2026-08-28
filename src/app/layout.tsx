@@ -1,11 +1,11 @@
-import { Barlow_Condensed, Inter } from "next/font/google";
+import { Oswald, Inter } from "next/font/google";
 import type { Metadata } from "next";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { site } from "@/lib/site";
 import "./globals.css";
 
-const display = Barlow_Condensed({
+const display = Oswald({
   subsets: ["latin"],
   weight: ["500", "600", "700"],
   variable: "--font-display",

@@ -13,6 +13,8 @@ export default function DetailingPage() {
       <PageHero
         title="Auto detailing"
         intro="Professional detailing to restore, protect, and maintain the vehicle inside and out. Size guide: small coupes/sedans, medium SUVs, large third-row vehicles and trucks. Mini vans: contact us. Heavily soiled vehicles may have an additional 15–25% charge, disclosed before work begins. Please remove personal items before drop-off."
+        image="/images/services/mercedes-g63.jpeg"
+        imageAlt="Mercedes G63 detailing and PPF in Santa Clara"
       />
       <section className="mx-auto grid max-w-6xl gap-6 px-5 py-16 md:grid-cols-2">
         {[

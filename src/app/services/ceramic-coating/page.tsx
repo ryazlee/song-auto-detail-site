@@ -13,6 +13,8 @@ export default function CeramicPage() {
       <PageHero
         title="Ceramic coating"
         intro="Ceramic coating is composed of silicon dioxide (SiO2). Applied by hand, it bonds with the paint and forms a protective layer that can last several years with proper maintenance. We install XPEL and Artdeshine coatings in Santa Clara."
+        image="/images/work/tesla-model-s.jpeg"
+        imageAlt="Tesla Model S with ceramic coating and PPF"
       />
       <section className="mx-auto max-w-6xl px-5 pb-8">
         <h2 className="text-3xl">Our process</h2>

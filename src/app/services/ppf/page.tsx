@@ -13,6 +13,8 @@ export default function PpfPage() {
       <PageHero
         title="Quality paint protection film"
         intro="Paint protection film is a transparent, thermoplastic urethane layer applied to painted surfaces to protect them from rock chips, scratches, and everyday wear. We are an authorized XPEL installer in Santa Clara."
+        image="/images/services/tesla-bumper-ppf.jpg"
+        imageAlt="Tesla bumper PPF at Song Auto Detail"
       />
       <section className="mx-auto grid max-w-6xl gap-6 px-5 py-16 md:grid-cols-3">
         {[

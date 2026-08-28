@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --background: #050505;
-  --foreground: #f4f4f5;
-  --muted: #a1a1aa;
-  --accent: #e8572a;
-  --accent-hover: #ff6a3c;
-  --line: #262626;
-  --elevated: #111111;
+  --background: #000000;
+  --foreground: #ffffff;
+  --muted: #b3b3b3;
+  --accent: #e85d04;
+  --accent-hover: #ff7a2e;
+  --line: #1a1a1a;
+  --elevated: #0a0a0a;
 }
 
 @theme inline {
@@ -22,14 +22,10 @@
   --font-display: var(--font-display);
 }
 
-html {
-  background: var(--background);
-  color: var(--foreground);
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: #000;
+  color: #fff;
   font-family: var(--font-body), system-ui, sans-serif;
 }
 
@@ -37,7 +33,8 @@ h1,
 h2,
 h3,
 .font-display {
-  font-family: var(--font-display), var(--font-body), sans-serif;
-  letter-spacing: 0.04em;
+  font-family: var(--font-display), sans-serif;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
+  font-weight: 600;
 }
